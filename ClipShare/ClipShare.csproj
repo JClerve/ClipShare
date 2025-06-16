@@ -10,4 +10,8 @@
     <PackageReference Include="Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation" Version="8.0.3" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\ClipShare.DataAcces\ClipShare.DataAcces.csproj" />
+  </ItemGroup>
+
 </Project>
